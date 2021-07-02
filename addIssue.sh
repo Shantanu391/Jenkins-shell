@@ -1,6 +1,6 @@
 #! /bin/bash
 
-issuetype_id="10001"
+issuetype_id="10002"
 project_key="TEST"
 description="This is a desction of the issue"
 summary="Test issue created from a shell script"
