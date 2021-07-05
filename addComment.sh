@@ -17,7 +17,7 @@ curl -i -X POST \
             "type": "paragraph",
             "content": [
               {
-                "text": "I am working on the issue",
+                "text": "I am working on the issue currently",
                 "type": "text"
               }
             ]
