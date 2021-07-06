@@ -1,6 +1,7 @@
 #! /bin/bash
 
-issuekey="TEST-1"
+issuekey="TEST-3"
+
 
 curl -i -X POST \
 	  -H "Authorization:Basic c2hhbnRhbnVkMzkwQGdtYWlsLmNvbTo2YUpLV1VLTzN0bkR6SUZKNE5BRDdBNDE=" \
@@ -17,7 +18,7 @@ curl -i -X POST \
             "type": "paragraph",
             "content": [
               {
-                "text": "I am working on the issue currently",
+                "text": "build failure in '"$1"'" ,
                 "type": "text"
               }
             ]
